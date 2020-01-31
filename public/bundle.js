@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar serNos = [6934, 23111, 23114, 1001, 211161, \"abc\"];\nvar partEl = document.getElementById('part-list');\nvar strList = serNos.reduce(function (acc, element) {\n  return acc += '<li>1</li>';\n}, '');\n\npartEl.innerHTML = strList;\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ })
 
