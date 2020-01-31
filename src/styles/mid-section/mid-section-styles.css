@@ -10,7 +10,15 @@
   justify-content: space-between;
 }
 .mid-section-container .car-description-container {
-  height: 50%;
-  width: 30%;
-  background-color: white;
+  font-size: 1.2em;
+  line-height: 90%;
+  font-family: "AudioWide", Times, serif;
+  height: 35%;
+  width: 25%;
+  color: white;
+  background-color: black;
+  opacity: 0.9;
+  margin-left: 35px;
+  margin-top: 70px;
+  padding: 35px 15px 15px 15px;
 }
