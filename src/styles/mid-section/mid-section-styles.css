@@ -1,0 +1,16 @@
+.mid-section-container {
+  height: 650px;
+  width: 100%;
+  background: url("../../assets/images/balenos.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.mid-section-container .car-description-container {
+  height: 50%;
+  width: 30%;
+  background-color: white;
+}
