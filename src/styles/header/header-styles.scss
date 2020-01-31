@@ -1,0 +1,20 @@
+.top-section-container {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+
+    .menu-container {
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        text-align: center;
+
+        .menu-item {
+            width: 20%;
+        }
+    }
+}
