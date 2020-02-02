@@ -12,12 +12,14 @@
   position: fixed;
 }
 .footer-container .footer-option {
+  font-family: "UBUNTU", Times, serif;
   padding-top: 25px;
   border-right: 0.1px solid #102F59;
   width: 25%;
   height: 75px;
   cursor: pointer;
   line-height: 20%;
+  font-weight: bold;
 }
 .footer-container .footer-option:last-child {
   border: none;

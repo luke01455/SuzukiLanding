@@ -26,6 +26,9 @@
   width: 20%;
   cursor: pointer;
 }
+.top-section-container .menu-container .menu-item #header-icon {
+  font-size: 1.4em;
+}
 .top-section-container .menu-container .menu-item:hover {
   letter-spacing: 2px;
   transform: scale(1.05);
