@@ -1,7 +1,7 @@
 .mid-section-container {
-  height: 650px;
+  height: 75.5vh;
   width: 100%;
-  background: url("../../assets/images/balenos.png") no-repeat center center fixed;
+  background: url("../../assets/images/balenos.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,7 +13,7 @@
   font-size: 1.2em;
   line-height: 90%;
   font-family: "AudioWide", Times, serif;
-  height: 35%;
+  height: 230px;
   width: 25%;
   color: white;
   background-color: black;
@@ -30,4 +30,14 @@
   color: white;
   border: 0px solid #cc0000;
   margin-top: 20px;
+}
+.mid-section-container .page-down-btn {
+  margin-top: auto;
+  margin-left: 0;
+  margin-right: 48.05%;
+  height: 70px;
+  width: 70px;
+  background-color: #cc0000;
+  color: white;
+  border: none;
 }

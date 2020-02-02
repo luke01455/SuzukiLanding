@@ -1,6 +1,23 @@
 .footer-container {
-  color: red;
-  height: 100px;
+  color: #102F59;
+  height: 9vh;
   width: 100%;
   background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+}
+.footer-container .footer-option {
+  border-right: 0.1px solid #102F59;
+  width: 25%;
+  height: 75px;
+  padding-top: 33px;
+  cursor: pointer;
+}
+.footer-container .footer-option:last-child {
+  border: none;
 }
