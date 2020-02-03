@@ -3,6 +3,11 @@
   width: 100%;
   display: flex;
 }
+@media screen and (max-width: 1100px) {
+  .lower-section-container {
+    flex-direction: column;
+  }
+}
 .lower-section-container .form-container {
   width: 85%;
   margin: 0 auto;
@@ -17,6 +22,11 @@
   background-color: #FEFAFA;
   font-size: 0.8em;
 }
+@media screen and (max-width: 1100px) {
+  .lower-section-container .car-specs-container {
+    width: 100%;
+  }
+}
 .lower-section-container .car-photo-container {
   height: 100%;
   width: 60%;
@@ -27,4 +37,9 @@
   padding-top: 50px;
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 1100px) {
+  .lower-section-container .car-photo-container {
+    width: 100%;
+  }
 }
