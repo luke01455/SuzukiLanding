@@ -1,6 +1,6 @@
 .footer-container {
   color: #102F59;
-  height: 9vh;
+  height: 85px;
   width: 100%;
   background-color: white;
   display: flex;
@@ -10,6 +10,11 @@
   left: 0px;
   right: 0px;
   position: fixed;
+}
+@media screen and (min-height: 820px) and (max-height: 990px) {
+  .footer-container {
+    height: 9vh;
+  }
 }
 .footer-container .footer-option {
   font-family: "UBUNTU", Times, serif;

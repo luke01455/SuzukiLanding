@@ -1,5 +1,5 @@
 .mid-section-container {
-    height: 75.5vh;
+    height: 750px;
     width: 100%;
     //background-color: rgb(123, 134, 140);
     background: url("../../assets/images/balenos.png") no-repeat center center;
@@ -10,11 +10,9 @@
     display: flex;
     justify-content: space-between;
 
-    // 800-920
-
-    // @media screen and (min-height: 800px) , screen and (max-height: 920px) {
-        
-    //   }
+    @media screen and (min-height: 820px) and (max-height: 990px) {
+        height: 75.5vh;
+    }
 
     .car-description-container {
         font-size: 1.2em;
@@ -46,6 +44,8 @@
         }
 
     }
+
+
 
 }
 
