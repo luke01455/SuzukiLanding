@@ -10,6 +10,8 @@
     display: flex;
     justify-content: space-between;
 
+
+
     .car-description-container {
         font-size: 1.2em;
         line-height: 90%;
@@ -21,18 +23,7 @@
         opacity: 0.9;
         margin-left: 35px;
         margin-top: 70px;
-        padding: 15px 15px 15px 15px;
-
-        .find-out-more-btn {
-            cursor: pointer;
-            width: 50%;
-            height: 45px;
-            background-color: #cc0000;
-            color: white;
-            border: 0px solid #cc0000;
-            margin-top: 20px;
-        }
-        
+        padding: 15px 15px 15px 15px; 
     }
 
     .page-down-btn {
@@ -45,6 +36,21 @@
         background-color: #cc0000;
         color: white;
         border: none;
+
+        #down-arrow {
+            font-size: 1.4em;
+        }
+
     }
 
+}
+
+.homepage-button {
+    cursor: pointer;
+    width: 50%;
+    height: 45px;
+    background-color: #cc0000;
+    color: white;
+    border: 0px solid #cc0000;
+    margin-top: 20px;
 }

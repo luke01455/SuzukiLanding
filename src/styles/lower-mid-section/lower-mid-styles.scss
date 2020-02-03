@@ -1,5 +1,24 @@
 .lower-section-container {
-    height: 700px;
+    height: 75.5vh;
     width: 100%;
-    background-color: teal;
+    display: flex;
+    
+
+    .car-specs-container {
+        width: 40%;
+        height: 100%;
+        background-color: #FEFAFA;
+    }
+
+    .car-photo-container {
+        height: 100%;
+        width: 60%;
+        background: url("../../assets/images/suzuki-baleno-rear.jpg") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
 }

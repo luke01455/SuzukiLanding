@@ -22,15 +22,6 @@
   margin-top: 70px;
   padding: 15px 15px 15px 15px;
 }
-.mid-section-container .car-description-container .find-out-more-btn {
-  cursor: pointer;
-  width: 50%;
-  height: 45px;
-  background-color: #cc0000;
-  color: white;
-  border: 0px solid #cc0000;
-  margin-top: 20px;
-}
 .mid-section-container .page-down-btn {
   margin-top: auto;
   margin-left: 0;
@@ -40,4 +31,17 @@
   background-color: #cc0000;
   color: white;
   border: none;
+}
+.mid-section-container .page-down-btn #down-arrow {
+  font-size: 1.4em;
+}
+
+.homepage-button {
+  cursor: pointer;
+  width: 50%;
+  height: 45px;
+  background-color: #cc0000;
+  color: white;
+  border: 0px solid #cc0000;
+  margin-top: 20px;
 }
