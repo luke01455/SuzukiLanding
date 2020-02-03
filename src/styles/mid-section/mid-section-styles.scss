@@ -10,7 +10,11 @@
     display: flex;
     justify-content: space-between;
 
+    // 800-920
 
+    // @media screen and (min-height: 800px) , screen and (max-height: 920px) {
+        
+    //   }
 
     .car-description-container {
         font-size: 1.2em;
@@ -45,12 +49,3 @@
 
 }
 
-.homepage-button {
-    cursor: pointer;
-    width: 50%;
-    height: 45px;
-    background-color: #cc0000;
-    color: white;
-    border: 0px solid #cc0000;
-    margin-top: 20px;
-}

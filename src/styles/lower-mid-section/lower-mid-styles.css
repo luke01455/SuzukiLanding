@@ -3,10 +3,19 @@
   width: 100%;
   display: flex;
 }
+.lower-section-container .form-container {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.lower-section-container .form-container .form-title {
+  font-family: "Rasa", Times, serif;
+}
 .lower-section-container .car-specs-container {
   width: 40%;
   height: 100%;
   background-color: #FEFAFA;
+  font-size: 0.8em;
 }
 .lower-section-container .car-photo-container {
   height: 100%;

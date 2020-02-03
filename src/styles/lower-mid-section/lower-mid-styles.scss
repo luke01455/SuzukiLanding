@@ -2,12 +2,23 @@
     height: 75.5vh;
     width: 100%;
     display: flex;
+
+    .form-container {
+
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 70px;
+        .form-title {
+            font-family: "Rasa", Times, serif;
+        }
+    }
     
 
     .car-specs-container {
         width: 40%;
         height: 100%;
         background-color: #FEFAFA;
+        font-size: 0.8em;
     }
 
     .car-photo-container {
