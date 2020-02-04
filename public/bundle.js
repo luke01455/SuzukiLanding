@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("\n\n(function () {\n\n  var hamburger = {\n    navToggle: document.querySelector('.nav-toggle'),\n    nav: document.querySelector('nav'),\n\n    doToggle: function doToggle(e) {\n      e.preventDefault();\n      this.navToggle.classList.toggle('expanded');\n      this.nav.classList.toggle('expanded');\n    }\n  };\n\n  hamburger.navToggle.addEventListener('click', function (e) {\n    hamburger.doToggle(e);\n  });\n  hamburger.nav.addEventListener('click', function (e) {\n    hamburger.doToggle(e);\n  });\n})();\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ })
 

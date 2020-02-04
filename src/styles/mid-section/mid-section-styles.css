@@ -20,6 +20,11 @@
     height: 75.5vh;
   }
 }
+@media screen and (max-width: 1100px) {
+  .mid-section-wrapper .mid-section-container {
+    height: 350px;
+  }
+}
 .mid-section-wrapper .mid-section-container .page-down-btn {
   margin: 0 auto;
   margin-top: auto;
