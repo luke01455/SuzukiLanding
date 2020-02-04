@@ -11,6 +11,9 @@
     right: 0px;
     position: fixed;
 
+
+
+
     @media screen and (min-height: 820px) and (max-height: 990px) {
         height: 9vh;
     }
@@ -24,6 +27,11 @@
         cursor: pointer;
         line-height: 20%;
         font-weight: bold;
+
+        @media screen and (max-width: 1000px) {
+            width: 33%;
+        }
+
     }
 
 
@@ -31,7 +39,22 @@
         border: none;
     }
 
+    .footer-option:last-child {
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
+    }
+
+    .footer-option:nth-child(3) {
+        @media screen and (max-width: 1000px) {
+            border: none;
+        }
+    }
+
 
 }
+
+
+
 
 

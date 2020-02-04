@@ -36,9 +36,16 @@
   background-color: #cc0000;
   color: white;
   border: none;
+  z-index: 0;
 }
 .mid-section-wrapper .mid-section-container .page-down-btn #down-arrow {
+  margin: 0 38.5%;
+  padding-top: 22px;
   font-size: 1.4em;
+}
+.mid-section-wrapper .mid-section-container .page-down-btn:hover {
+  background-color: black;
+  font-size: 1.2em;
 }
 .mid-section-wrapper .car-description-container {
   position: absolute;

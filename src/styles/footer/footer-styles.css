@@ -26,6 +26,21 @@
   line-height: 20%;
   font-weight: bold;
 }
+@media screen and (max-width: 1000px) {
+  .footer-container .footer-option {
+    width: 33%;
+  }
+}
 .footer-container .footer-option:last-child {
   border: none;
+}
+@media screen and (max-width: 1000px) {
+  .footer-container .footer-option:last-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .footer-container .footer-option:nth-child(3) {
+    border: none;
+  }
 }

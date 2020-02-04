@@ -36,11 +36,19 @@
         background-color: #cc0000;
         color: white;
         border: none;
+        z-index: 0;
 
         #down-arrow {
+            margin: 0 38.5%;
+            padding-top: 22px;
             font-size: 1.4em;
         }
 
+
+    }
+    .page-down-btn:hover {
+        background-color: black;
+        font-size: 1.2em;
     }
 }
 
@@ -73,7 +81,7 @@
             margin-top: 50px;
         }
     }
-
+  }
 }
 
-}
+
