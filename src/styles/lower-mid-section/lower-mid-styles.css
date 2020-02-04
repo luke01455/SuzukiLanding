@@ -5,7 +5,7 @@
 }
 @media screen and (max-width: 1100px) {
   .lower-section-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 .lower-section-container .form-container {
