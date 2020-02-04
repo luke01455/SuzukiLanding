@@ -1,0 +1,79 @@
+.footer-container {
+    color: #102F59;
+    height: 85px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+
+
+
+
+    @media screen and (min-height: 820px) and (max-height: 990px) {
+        height: 9vh;
+    }
+    
+    .footer-option {
+        font-family: "UBUNTU", Times, serif;
+        padding-top: 25px;
+        border-right: 0.1px solid #102F59;
+        width: 25%;
+        height: 75px;
+        cursor: pointer;
+        line-height: 20%;
+        font-weight: bold;
+
+        @media screen and (max-width: 1000px) {
+            width: 33%;
+        }
+
+    }
+
+
+    .footer-option:last-child {
+        border: none;
+    }
+
+    .footer-option:last-child {
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
+    }
+
+    .footer-option:nth-child(3) {
+        @media screen and (max-width: 1000px) {
+            border: none;
+            content: "wat";
+        }
+    }
+
+    // editing text based on screen size
+    
+    .footer-option:nth-child(2):after {
+        content: "BOOK A TEST DRIVE";
+        @media screen and (max-width: 1000px) {
+            border: none;
+            content: "TEST DRIVE";
+        }
+    }
+
+    .footer-option:nth-child(3):after {
+        content: "REQUEST A BROCHURE";
+        @media screen and (max-width: 1000px) {
+            border: none;
+            content: "BROCHURE";
+        }
+    }
+
+
+}
+
+
+
+
+

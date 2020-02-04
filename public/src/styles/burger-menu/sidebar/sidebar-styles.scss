@@ -1,0 +1,47 @@
+.nav {
+    -webkit-transition: left 0.5s ease;
+    -moz-transition: left 0.5s ease;
+    -ms-transition: left 0.5s ease;
+    -o-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    height: 100vh;
+    left: -170%;
+    padding: 6rem 2rem 2rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    text-align: center;
+    font-size: 1.2em;
+
+    .suzuki-logo-nav {
+      position: absolute;
+      left: 39%;
+      width: 100px;
+      height: 100px;
+    }
+    
+  }
+  
+  .nav.expanded { left: 0; }
+  
+  .nav ul {
+    line-height: 175%;
+    position: absolute;
+    top: 39%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    list-style: none;
+    left: 36%;
+    padding: 0;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }

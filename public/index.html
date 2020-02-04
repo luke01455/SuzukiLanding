@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Suzuki landing page</title>
+    <!-- Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rasa&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="src/styles/footer/footer-styles.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="src/styles/header/header-styles.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="src/styles/mid-section/mid-section-styles.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="src/styles/lower-mid-section/lower-mid-styles.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="src/styles/global/button-styles.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="src/styles/burger-menu/burger-trigger/burger-trigger-styles.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="src/styles/burger-menu/sidebar/sidebar-styles.css" media="screen" />
+
+    <script src="https://kit.fontawesome.com/ce673c609f.js" crossorigin="anonymous"></script>
+    <script src="js/bundle.js" charset="utf-8"></script>
+    <script src="jquery.js"></script>
+    <script> 
+    </script> 
+    <style>
+      /* * { 
+      outline: 1px solid red;
+      outline-offset: -1px;
+        } */
+
+        body {
+          font-family: "Lexend Exa", Times, serif;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="nav-toggle">
+      <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="nav">
+      <img class="suzuki-logo-nav" src="src/assets/images/FAVPNG_suzuki-car-logo-cdr_WaevvXy8white.png"></img>
+      <ul>
+        <li><a href="#">HOME<a></li>
+        <li><a href="#">NEW CARS</a></li>
+        <li><a href="#">USED CARS</a></li>
+        <li><a href="#">BUSINESS</a></li>
+        <li><a href="#">OWNERS</a></li>
+        <li><a href="#">DEALERS</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">SEARCH</a></li>
+      </ul>
+    </nav>
+    <main>
+      
+      <!-- Header  -->
+      <div class="top-section-container">
+        <div class="menu-container">
+          <div class="menu-item"> <i class="fas fa-home" id="header-icon"></i> </div>
+          <div class="menu-item"> NEW CARS</div>
+          <div class="menu-item"> USED CARS </div>
+          <div class="menu-item"> BUSINESS </div>
+        </div>
+        <div class="logo-container">
+          <img class="logo-image" src="src/assets/images/suzukilogo.png" alt="logo"></img>
+        </div>
+        <div class="menu-container">
+          <div class="menu-item"> OWNERS </div>
+          <div class="menu-item"> DEALERS </div>
+          <div class="menu-item"> SHOP </div>
+          <div class="menu-item"> <i class="fas fa-search" id="header-icon"></i> </div>
+        </div>
+    </div>
+
+      <!-- Coming Soon Section -->
+      <div class="mid-section-wrapper">
+        <div class="car-description-container">
+          <div class="mid-text-container"> 
+          <h1> INTRODUCING </h1>
+          <h1> THE NEW </h1>
+          <h1> SUZUKI BALENO </h1>
+          <button class="homepage-button"> FIND OUT MORE </button>
+        </div>
+        </div>
+        <div class="mid-section-container"> 
+          <a href="#form-section" class="page-down-btn"> <i class="fas fa-angle-double-down" id="down-arrow"></i> </a>
+        </div>
+      </div>
+
+      <!-- Lower middle section -->
+      <div class="lower-section-container" id="form-section">
+        <div class="car-specs-container">
+          <div class="form-container">
+            <h1 class="form-title"> TEST DRIVE THE NEW BALENO </h1>
+            <p> Experience for yourself Suzuki's new captivating driving experience at a Retailer near you. </p>
+            <form>
+              <span class="form-wrapper">
+                <label>Name:</label>
+                <input  class="form-input">
+                <label>Email:</label>
+                <input  class="form-input">
+              </span>
+            </form>
+            <button class="homepage-button" id="interest-button"> REGISTER INTEREST </button>
+          </div>
+        </div>
+        <div class="car-photo-container"></div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer-container">
+        <div class="footer-option"> <i class="fas fa-map-pin"></i> <p> FIND A DEALER </p>  </div>
+        <div class="footer-option"> <i class="fas fa-car"></i> <p></p>  </div>
+        <div class="footer-option"> <i class="fas fa-book-open"></i> <p></p>  </div>
+        <div class="footer-option"> <i class="fas fa-pound-sign"></i> <p> HAGGLE FREE OFFERS </p>  </div>
+      </div>
+    </main>
+    <script src="./public/bundle.js" charset="utf-8"></script>
+  </body>
+</html>
