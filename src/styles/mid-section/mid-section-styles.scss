@@ -3,6 +3,7 @@
     @media screen and (max-width: 1100px) {
         display: flex;
         flex-direction: column-reverse;
+        padding-top: 50px;
     }
 
 .mid-section-container {
@@ -16,6 +17,7 @@
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 
     @media screen and (min-height: 820px) and (max-height: 990px) {
         height: 75.5vh;
@@ -23,6 +25,7 @@
 
     @media screen and (max-width: 1100px) {
         height: 350px;
+        margin-top: -50px;
     }
 
     .page-down-btn {
