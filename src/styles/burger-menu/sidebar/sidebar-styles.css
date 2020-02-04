@@ -16,7 +16,7 @@
 }
 .nav .suzuki-logo-nav {
   position: absolute;
-  left: 32%;
+  left: 39%;
   width: 100px;
   height: 100px;
 }
@@ -28,10 +28,10 @@
 .nav ul {
   line-height: 175%;
   position: absolute;
-  top: 38%;
+  top: 39%;
   transform: translateY(-50%);
   list-style: none;
-  left: 30%;
+  left: 36%;
   padding: 0;
 }
 .nav ul a {

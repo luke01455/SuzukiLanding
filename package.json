@@ -2,7 +2,7 @@
   "name": "suzuki",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "watch": "webpack --watch",
     "build": "webpack --config webpack.config.js",
