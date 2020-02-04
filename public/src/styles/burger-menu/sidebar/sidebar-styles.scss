@@ -23,6 +23,11 @@
       left: 39%;
       width: 100px;
       height: 100px;
+
+      @media screen and (max-width: 700px) {
+        left: 33%;
+    }
+    
     }
     
   }
@@ -39,6 +44,10 @@
     list-style: none;
     left: 36%;
     padding: 0;
+
+    @media screen and (max-width: 700px) {
+      left: 30%;
+    }
 
     a {
       text-decoration: none;
