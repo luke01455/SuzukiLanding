@@ -48,6 +48,25 @@
     .footer-option:nth-child(3) {
         @media screen and (max-width: 1000px) {
             border: none;
+            content: "wat";
+        }
+    }
+
+    // editing text based on screen size
+    
+    .footer-option:nth-child(2):after {
+        content: "BOOK A TEST DRIVE";
+        @media screen and (max-width: 1000px) {
+            border: none;
+            content: "TEST DRIVE";
+        }
+    }
+
+    .footer-option:nth-child(3):after {
+        content: "REQUEST A BROCHURE";
+        @media screen and (max-width: 1000px) {
+            border: none;
+            content: "BROCHURE";
         }
     }
 

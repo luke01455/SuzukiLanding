@@ -42,5 +42,24 @@
 @media screen and (max-width: 1000px) {
   .footer-container .footer-option:nth-child(3) {
     border: none;
+    content: "wat";
+  }
+}
+.footer-container .footer-option:nth-child(2):after {
+  content: "BOOK A TEST DRIVE";
+}
+@media screen and (max-width: 1000px) {
+  .footer-container .footer-option:nth-child(2):after {
+    border: none;
+    content: "TEST DRIVE";
+  }
+}
+.footer-container .footer-option:nth-child(3):after {
+  content: "REQUEST A BROCHURE";
+}
+@media screen and (max-width: 1000px) {
+  .footer-container .footer-option:nth-child(3):after {
+    border: none;
+    content: "BROCHURE";
   }
 }
